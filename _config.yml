@@ -8,6 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+languages:
+  default: "en-US"
+  available:
+    - "en-US"
+    - "zh-CN"
+language_labels:
+  "en-US": "English"
+  "zh-CN": "简体中文"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Your Name / Site Title"
 title_separator          : "-"
@@ -234,6 +242,11 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "en-US"
+      locale: "en-US"
   # _posts
   - scope:
       path: ""

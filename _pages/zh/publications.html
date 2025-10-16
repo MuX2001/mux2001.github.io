@@ -1,20 +1,19 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "出版物"
+permalink: /zh/publications/
 author_profile: true
-lang: "en-US"
-locale: "en-US"
+lang: "zh-CN"
+locale: "zh-CN"
 lang_ref: "publications"
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">你也可以在<a href="{{site.author.googlescholar}}">我的 Google Scholar 个人主页</a>上查看出版物。</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -34,5 +33,3 @@ lang_ref: "publications"
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-

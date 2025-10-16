@@ -65,3 +65,23 @@
     font-weight: 700;
   }
 }
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+
+  .language-switch__link {
+    font-weight: 600;
+
+    &--active {
+      cursor: default;
+      color: inherit;
+      opacity: 0.6;
+    }
+  }
+
+  .language-switch__sep {
+    opacity: 0.4;
+  }
+}

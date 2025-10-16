@@ -3,9 +3,12 @@ layout: compress
 ---
 
 {% include base_path %}
+{% assign current_locale = page.locale | default: page.lang | default: site.locale %}
+{% assign html_lang = current_locale | default: "en" %}
+{% assign html_lang = html_lang | replace: '_', '-' | replace: ' ', '-' %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ html_lang }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
     {% include head.html %}
     {% include head/custom.html %}

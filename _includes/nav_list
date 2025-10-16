@@ -1,5 +1,14 @@
 {% include base_path %}
 {% assign navigation = site.data.navigation[include.nav] %}
+{% if navigation %}
+  {% assign localized_navigation = navigation[current_locale] %}
+  {% if localized_navigation == nil and site.languages.default %}
+    {% assign localized_navigation = navigation[site.languages.default] %}
+  {% endif %}
+  {% if localized_navigation %}
+    {% assign navigation = localized_navigation %}
+  {% endif %}
+{% endif %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>{% endif %}
