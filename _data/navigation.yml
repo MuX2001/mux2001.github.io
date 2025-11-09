@@ -15,17 +15,20 @@ main:
     - title: "Publications"
       url: /publications/
 
-    - title: "Talks"
-      url: /talks/
+    - title: "Projects"
+      url: /projects/
 
-    - title: "Teaching"
-      url: /teaching/
+    # - title: "Talks"
+    #   url: /talks/
 
-    - title: "Portfolio"
-      url: /portfolio/
+    # - title: "Teaching"
+    #   url: /teaching/
 
-    - title: "Blog Posts"
-      url: /year-archive/
+    # - title: "Portfolio"
+    #   url: /portfolio/
+
+    # - title: "Blog Posts"
+    #   url: /year-archive/
 
     - title: "CV"
       url: /cv/
@@ -33,8 +36,8 @@ main:
     # - title: "CV"
     #   url: /cv-json/
 
-    - title: "Guide"
-      url: /markdown/
+    # - title: "Guide"
+    #   url: /markdown/
 
   zh-CN:
     - title: "主页"
@@ -43,20 +46,20 @@ main:
     - title: "出版物"
       url: /zh/publications/
 
-    - title: "报告"
-      url: /zh/talks/
+    # - title: "报告"
+    #   url: /zh/talks/
 
-    - title: "教学"
-      url: /zh/teaching/
+    # - title: "教学"
+    #   url: /zh/teaching/
 
-    - title: "作品集"
-      url: /zh/portfolio/
+    # - title: "作品集"
+    #   url: /zh/portfolio/
 
-    - title: "博客"
-      url: /zh/year-archive/
+    # - title: "博客"
+    #   url: /zh/year-archive/
 
     - title: "简历"
       url: /zh/cv/
 
-    - title: "指南"
-      url: /zh/markdown/
+    # - title: "指南"
+    #   url: /zh/markdown/
