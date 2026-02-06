@@ -31,11 +31,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mu Xie"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him" # Optional, e.g. "she/her", "they/them", "ze/zir"
   bio              : # "Short biography for the left-hand sidebar"
-  location         : # "Earth"
+  location         : "Philadelphia, PA"
   employer         : "University of Pennsylvania"
   uri              : # URL
   email            : "mux2001@seas.upenn.edu" 

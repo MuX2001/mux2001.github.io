@@ -24,7 +24,7 @@ Focused on uncertainty propagation and adaptive trajectory control performance.
 
 ## Autonomous Systems
 
-### F1TENTH Autonomous Racing (2024)
+### F1TENTH Autonomous Racing (2025)
 Participated in three autonomous racing rounds using a full **ROS 2** stack for perception, planning, and control.  
 Developed and integrated multiple subsystems that formed a complete racing pipeline:
 
@@ -42,7 +42,7 @@ Developed and integrated multiple subsystems that formed a complete racing pipel
 **Tools:** ROS 2, Python/C++, RViz, TensorRT  
 **Keywords:** autonomous racing, motion planning, perception, MPC, embedded robotics
 
-### LLM-Guided Navigation for F1TENTH (2024)
+### LLM-Guided Navigation for F1TENTH (2025)
 Investigated using large language models (LLMs) for natural-language-driven navigation and control decisions.  
 Connected semantic task instructions to high-level control primitives in simulation.  
 **Keywords:** LLM robotics, task planning, autonomous driving
