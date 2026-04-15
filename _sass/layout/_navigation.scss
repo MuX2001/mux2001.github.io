@@ -176,6 +176,8 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  display: flex;
+  align-items: center;
 
   a {
     display: block;
@@ -225,15 +227,6 @@
       }
     }
 
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-      }
-    }
-
     a {
       position: relative;
 
@@ -256,6 +249,23 @@
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
+      }
+    }
+  }
+
+  .masthead__right-controls {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: auto;
+    gap: 0.25em;
+
+    #theme-toggle {
+      a {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
       }
     }
   }

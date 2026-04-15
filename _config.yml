@@ -17,7 +17,7 @@ language_labels:
   "en-US": "English"
   "zh-CN": "简体中文"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Mu's Homepage"
+title                    : "Orbit: MUXIØ"
 title_separator          : "-"
 name                     : &name "Mu Xie"
 description              : &description "Mu Xie's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -32,7 +32,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Mu Xie"
+  name             : "Mu Xie / 谢沐"
   pronouns         : "he/him" # Optional, e.g. "she/her", "they/them", "ze/zir"
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Philadelphia, PA"

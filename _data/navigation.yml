@@ -46,6 +46,9 @@ main:
     - title: "出版物"
       url: /zh/publications/
 
+    - title: "项目"
+      url: /zh/projects/
+
     # - title: "报告"
     #   url: /zh/talks/
 
